@@ -223,7 +223,7 @@ function App() {
             {authMode !== 'login' && <div style={{ marginBottom: '24px' }}></div>}
             <button onClick={() => { if (authMode === 'login') handleLogin(); if (authMode === 'cadastro') handleCadastro(); if (authMode === 'recuperar') handleRecuperar(); }} disabled={loading} style={{ ...buttonStyle, background: 'linear-gradient(135deg, #ec4899, #8b5cf6)', boxShadow: '0 10px 20px rgba(236, 72, 153, 0.3)', padding: '16px', fontSize: '16px', letterSpacing: '0.5px' }}> {loading ? 'Carregando...' : (authMode === 'login' ? 'Entrar no Sistema' : authMode === 'cadastro' ? 'Cadastrar Conta' : 'Enviar Link')} </button>
           </div>
-          <div style={{ marginTop: '25px', fontSize: '14px', color: '#6b7280' }}> {authMode === 'login' ? (<>Não tem uma conta? <button onClick={() => setAuthMode('cadastro')} style={{ background: 'none', border: 'none', color: '#ec4899', fontWeight: 'bold', cursor: 'pointer' }}>Cadastre-se</button></>) : (<>Já tem conta? <button onClick={() => setAuthMode('login')} style={{ background: 'none', border: 'none', color: '#ec4899', fontWeight: 'bold', cursor: 'pointer' }}>Fazer Login</button></>)} </div>
+          <div style={{ marginTop: '25px', fontSize: '14px', color: '#6b7280' }}> {authMode === 'login' ? (<>Não tem uma contaaaaa? <button onClick={() => setAuthMode('cadastro')} style={{ background: 'none', border: 'none', color: '#ec4899', fontWeight: 'bold', cursor: 'pointer' }}>Cadastre-se</button></>) : (<>Já tem conta? <button onClick={() => setAuthMode('login')} style={{ background: 'none', border: 'none', color: '#ec4899', fontWeight: 'bold', cursor: 'pointer' }}>Fazer Login</button></>)} </div>
         </div>
       </div>
     )
