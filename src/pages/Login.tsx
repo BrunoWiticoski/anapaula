@@ -19,7 +19,7 @@ export function Login({
 }: Props) {
   return (
     <div style={{ maxWidth: 420, margin: '0 auto', padding: 20 }}>
-      <h1>Studio da Ana Paula 💅</h1>
+      <h1>Studio da Ana Paulaaaaaa 💅</h1>
 
       <input
         style={inputStyle}
